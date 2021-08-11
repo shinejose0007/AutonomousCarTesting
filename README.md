@@ -33,7 +33,8 @@ create virtual environment in c folder
 Install necessary package with licesence
 https://beamng.tech/
 
-Befoe running xmlvisualization.py, please copy the sumoSimulation folder from common road to the run the xmlvisualization.py
+Befoe running xmlvisualization.py, please copy the sumoSimulation folder from common road to the run Beamng file,
+and then run xmlvisualization.py
 
 
 new simulator opens with shinetest
