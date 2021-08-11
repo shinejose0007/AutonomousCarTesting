@@ -1,0 +1,207 @@
+-- Log started - v 0.21.3.0.0 - x64 - build 0 - 2021-8-9 -- 15:29:23 -----
+-- private build Marc - Wed Feb 03 13:43:40 2021 
+-- Log Format: Time since startup | Message level: D(ebug), I(nfo), W(arning), E(rror), A(lways) | Message
+  0.59790|I|StandardMainLoop::init|Virtual Filesystem: user path: C:/ShineAutonomousTesting/sbst-2021-tutorial/Code/
+  0.59809|D|StandardMainLoop::init| - user path reason: command argument -userpath
+  0.59819|D|StandardMainLoop::init| - user mods path: C:/ShineAutonomousTesting/sbst-2021-tutorial/Code/mods/
+  0.59831|D|StandardMainLoop::init| - game mods path: C:/ShineAutonomousTesting/BeamNG.tech/content/
+  0.59871|I|Processor::init|Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz ~2.59 GHz [HT,] 1 physical, 2 cores, 4 logical
+  0.59968|D|main|H2 7EE9F764DB6EF794ECCB3C94523236E68663
+  0.60094|D|ModuleManager::initializeSystem|initializing 79 modules (only displaying anything above 0.100000 s)...
+  0.66913|I|SFXFMODProvider::init|SFXFMODProvider - FMOD API version: 2.1.5
+  0.80144|I|verifyResearchLicense|BeamNG.tech license verified.
+  0.80213|I|SFXSystem::initChannels|SFXSystem initChannels called.....
+  0.80333|D|SFXSystem::createDevice|Using default audio device: Speakers (Conexant SmartAudio HD)
+  1.06135|D|SFXSystem::createDevice|SFXSystem::createDevice - created FMOD device 'Speakers (Conexant SmartAudio HD)'
+  1.06139|D|SFXSystem::createDevice|   CAPS_VoiceManagement
+  1.06216|D|SFXSystem::finailizeInitialization|   Provider: FMOD
+  1.06219|D|SFXSystem::finailizeInitialization|   Hardware: Yes
+  1.06222|D|SFXSystem::finailizeInitialization|   Buffers: 16
+  1.06229|D|ModuleManager::initializeSystem| - AFTER_MODULE_INIT( BeamEngine ) in D:\Work\gameengine\Engine\source\sfx\sfxSystem.cpp in 0.260206 seconds
+  1.09018|I|GELua.|============== Game Engine Lua VM started ==============
+  1.35767|D|GELua.core_gamestate.gamestate|see if ui is loaded
+  1.67777|D|ModuleManager::initializeSystem| - GameEngineLua in 0.614972 seconds
+  1.67795|D|GFXInit::init|GFX Init:
+  1.70680|D|_GFXInitReportAdapters|   Null device found
+  1.70689|D|_GFXInitReportAdapters| Direct 3D (version 11) device found
+  1.70697|D|_GFXInitReportAdapters| Direct 3D (version 11) device found
+  1.70743|D|ModuleManager::initializeSystem|... all modules loaded in 1.106457 seconds
+  1.70756|D|Platform::init|Initializing platform...
+  1.71169|D|DirectInputInputDeviceSystem::initialize|Initializing DirectInput...
+  1.74814|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices start ***
+  1.76611|D|DirectInputDeviceV2::initialize|Mouse [instance: Mouse] detected, created as mouse0 (asynchronous)
+  1.76634|D|DirectInputDeviceV2::initialize| - devtype 0x112
+  1.76654|D|DirectInputDeviceV2::initialize| - A mouse or mouse-like device (such as a trackball)
+  1.76671|D|DirectInputDeviceV2::initialize| + 3 axes
+  1.76688|D|DirectInputDeviceV2::initialize| + 8 buttons
+  1.76740|D|DirectInputDeviceV2::initialize|created device 'mouse0', took 0.001s: create:0.024ms, caps:0.010ms, txts:1.017ms, enum:0.197ms, fmt:0.071ms, buff:0.009ms, axis:0.003ms
+  1.76792|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Mouse' took 0.002s: conv:0.006ms, type:0.003ms, xinp:0.002ms, add/create:1.820ms, create():0.003ms
+  1.78342|D|DirectInputDeviceV2::initialize|Keyboard [instance: Keyboard] detected, created as keyboard0 (asynchronous)
+  1.78359|D|DirectInputDeviceV2::initialize| - devtype 0x413
+  1.78376|D|DirectInputDeviceV2::initialize| - Keyboard or keyboard-like:
+  1.78391|D|DirectInputDeviceV2::initialize|  - IBM PC Enhanced 101/102-key or Microsoft Natural keyboard.
+  1.78407|D|DirectInputDeviceV2::initialize| + 128 buttons
+  1.79908|D|DirectInputDeviceV2::initialize|created device 'keyboard0', took 0.020s: create:4.206ms, caps:0.006ms, txts:0.895ms, enum:14.63ms, fmt:0.129ms, buff:0.001ms, axis:0.002ms
+  1.79930|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Keyboard' took 0.020s: conv:0.003ms, type:0.003ms, xinp:0.002ms, add/create:20.19ms, create():0.001ms
+  1.82765|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant consumer control device
+  1.82780|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant consumer control device' took 0.000s: conv:0.004ms, type:0.198ms
+  1.83566|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant system controller
+  1.83581|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant system controller' took 0.000s: conv:0.004ms, type:0.185ms
+  1.83597|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices end ***
+  1.83636|D|DirectInputDeviceV2::acquire|Not attempting to acquire device mouse0, since game window is not available
+  1.83647|D|DirectInputDeviceV2::acquire|Not attempting to acquire device keyboard0, since game window is not available
+  1.83889|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices start ***
+  1.85047|D|DirectInputDeviceV2::initialize|Mouse [instance: Mouse] detected, created as mouse0 (asynchronous)
+  1.85059|D|DirectInputDeviceV2::initialize| - devtype 0x112
+  1.85070|D|DirectInputDeviceV2::initialize| - A mouse or mouse-like device (such as a trackball)
+  1.85080|D|DirectInputDeviceV2::initialize| + 3 axes
+  1.85090|D|DirectInputDeviceV2::initialize| + 8 buttons
+  1.85121|D|DirectInputDeviceV2::initialize|created device 'mouse0', took 0.001s: create:0.013ms, caps:0.001ms, txts:0.588ms, enum:0.113ms, fmt:0.015ms, buff:0.006ms, axis:0.002ms
+  1.85146|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Mouse' took 0.001s: conv:0.002ms, type:0.001ms, xinp:0.002ms, add/create:0.970ms, create():0.002ms
+  1.85200|D|DirectInputDeviceV2::initialize|Keyboard [instance: Keyboard] detected, created as keyboard0 (asynchronous)
+  1.85213|D|DirectInputDeviceV2::initialize| - devtype 0x413
+  1.85227|D|DirectInputDeviceV2::initialize| - Keyboard or keyboard-like:
+  1.85239|D|DirectInputDeviceV2::initialize|  - IBM PC Enhanced 101/102-key or Microsoft Natural keyboard.
+  1.85249|D|DirectInputDeviceV2::initialize| + 128 buttons
+  1.85528|D|DirectInputDeviceV2::initialize|created device 'keyboard0', took 0.003s: create:0.109ms, caps:0.003ms, txts:0.630ms, enum:2.491ms, fmt:0.124ms, buff:0.001ms, axis:0.001ms
+  1.85547|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Keyboard' took 0.004s: conv:0.003ms, type:0.001ms, xinp:0.002ms, add/create:3.598ms, create():0.001ms
+  1.88162|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant consumer control device
+  1.88177|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant consumer control device' took 0.000s: conv:0.005ms, type:0.202ms
+  1.88937|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant system controller
+  1.88951|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant system controller' took 0.000s: conv:0.003ms, type:0.167ms
+  1.88966|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices end ***
+  1.88977|D|DirectInputDeviceV2::acquire|Not attempting to acquire device mouse0, since game window is not available
+  1.88987|D|DirectInputDeviceV2::acquire|Not attempting to acquire device keyboard0, since game window is not available
+  1.89047|D|Platform::init|Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz GenuineIntel x64
+  1.89077|D|Platform::init|Microsoft Windows 10 (v10.0) (build 19043), 64-bit
+  1.89091|D|Platform::init|Physical memory: 15.90 GB
+  1.89105|D|Platform::init|Battery: state: 'high' - online
+  1.89116|D|Platform::init|Process Priority: Normal (0x20)
+  1.89296|D|CommandListener|CommandListener started
+  1.89553|D|TS|command line args:
+  1.89567|D|TS| - 0 = C:\ShineAutonomousTesting\BeamNG.tech\Bin64\BeamNG.tech.x64.exe
+  1.89578|D|TS| - 1 = -console
+  1.89589|D|TS| - 2 = -rport
+  1.89601|D|TS| - 3 = 64256
+  1.89612|D|TS| - 4 = -nosteam
+  1.89622|D|TS| - 5 = -physicsfps
+  1.89633|D|TS| - 6 = 4000
+  1.89646|D|TS| - 7 = -lua
+  1.89657|D|TS| - 8 = registerCoreModule('util/researchGE')
+  1.89667|D|TS| - 9 = -userpath
+  1.89678|D|TS| - 10 = C:\ShineAutonomousTesting\sbst-2021-tutorial\Code
+  2.32492|D|GFXInit::createDevice|Attempting to create GFX device 0: Intel(R) HD Graphics Family (D3D11) [with output \\.\DISPLAY1]
+  2.32511|D|GFXInit::createDevice|shader model: 5.0 , available video modes: 25
+  2.32533|D|GFXInit::createDevice|Device created, setting adapter and enumerating modes
+  2.44639|D|GFXD3D11Device::init|Hardware occlusion query detected: Yes
+  2.45285|D|GFXCardProfiler::init|D3D11 -  (Intel(R) HD Graphics Family) [112 MB] ver 
+  2.45307|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureWidth' to 8192.
+  2.45324|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureHeight' to 8192.
+  2.45342|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureSize' to 8192.
+  2.45358|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'autoMipMapLevel' to 1.
+  2.45374|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'lerpDetailBlend' to 1.
+  2.45390|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'fourStageDetailBlend' to 1.
+  2.47821|D|GFXD3D11Device::init|GFXDevice 11 - SM 5.000000
+  2.48237|D|GFXD3D11WindowTarget::init|setting video mode: Width 1280, Height 720, Format 28, Windowed 1
+  9.88658|D|TS|initClient start...
+  9.88939|D|TS|initBaseClient start...
+  9.89612|D|TS|initRenderManager
+  9.89648|D|TS|initRenderManager
+  9.89662|D|TS|--------- Initializing Lighting Systems ---------
+  9.89672|D|TS|   Finding all the system files
+  9.89973|D|TS|   exec: /core/scripts/client/lighting/shadowMaps/init.cs
+  9.90128|D|TS|   exec: /core/scripts/client/lighting/basic/init.cs
+  9.90520|D|TS|   exec: /core/scripts/client/lighting/advanced/init.cs
+  9.93362|D|TS|   Finished with system files
+  9.97453|D|TS|initPostEffects start...
+ 10.09362|D|TS|HDR FORMAT: GFXFormatR16G16B16A16F
+ 10.16704|D|TS|... initPostEffects done
+ 10.16721|D|TS|Initialize the post effect manager
+ 10.22535|D|TS|% - PostFX Manager - Executing settings/default.postfxpreset.cs
+ 10.22709|D|TS|% - PostFX Manager - Applying from preset
+ 10.22749|D|TS|% - PostFX Manager - PostFX enabled
+ 10.22777|D|TS|... initBaseClient done
+ 10.30419|D|TS|Attempting to set resolution to "1280 720 Window 32 60 0"
+ 10.30447|D|TS|Accepted Mode: 1280 720 Window 32 60 0
+ 10.99459|D|TS|... initClient done
+ 10.99900|I|BEAMNGCEF::CefManager::init|using CEF with software rasterizer
+ 11.24840|D|StandardMainLoop::doMainLoop|Started up in 11.25 seconds...
+ 11.27886|D|DirectInputDeviceV2::acquire|Succesfully acquired directinput device mouse0
+ 11.28123|D|DirectInputDeviceV2::acquire|Succesfully acquired directinput device keyboard0
+ 11.28727|D|SimConsoleEvent::process|TS:Executing schedule: 1 - MessageBoxOK
+ 11.30098|I|GELua.core_audio.onFirstUpdate|onFirstUpdate called....
+ 11.42181|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.assets.bank' in 0.116919 seconds. Preload sample data = true.
+ 11.54158|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.streams.bank' in 0.117092 seconds. Preload sample data = true.
+ 11.65142|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle_preload.assets.bank' in 0.108336 seconds. Preload sample data = true.
+ 11.75176|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle_preload.streams.bank' in 0.098823 seconds. Preload sample data = true.
+ 11.80679|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ambient_maps.streams.bank' in 0.053309 seconds. Preload sample data = false.
+ 11.87311|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/music.assets.bank' in 0.064773 seconds. Preload sample data = false.
+ 11.93125|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/music.streams.bank' in 0.056601 seconds. Preload sample data = false.
+ 12.00276|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ui.assets.bank' in 0.069823 seconds. Preload sample data = false.
+ 12.06170|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ui.streams.bank' in 0.057274 seconds. Preload sample data = false.
+ 12.14135|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle.assets.bank' in 0.077919 seconds. Preload sample data = false.
+ 12.21654|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle.streams.bank' in 0.073300 seconds. Preload sample data = false.
+ 12.32182|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.strings.bank' in 0.102878 seconds. Preload sample data = true.
+ 12.58063|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.bank' in 0.254148 seconds. Preload sample data = true.
+ 13.42132|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle_preload.bank' in 0.833178 seconds. Preload sample data = true.
+ 13.48168|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/music.bank' in 0.055065 seconds. Preload sample data = false.
+ 13.54141|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ui.bank' in 0.057928 seconds. Preload sample data = false.
+ 14.18139|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle.bank' in 0.634784 seconds. Preload sample data = false.
+ 14.75486|D|GELua.core_cameraModes_relative.core_camera.relative|No refNodes found, using default fallback
+ 15.82932|D|reloadLanguages|Switched to OS language: '' -> 'en-US' ('en-US')
+ 15.83641|D|GELua.core_settings_settings.settings|set font: segoeui.ttf, 19px
+ 15.86010|D|GELua.core_settings_graphic.graphic|Sanitizing display - //./DISPLAY2: Passed.
+ 15.86032|D|GELua.core_settings_graphic.graphic|Sanitizing display mode - Window: Passed.
+ 15.86321|D|GELua.core_settings_graphic.graphic|Sanitizing display resolution - 1366 768: Passed.
+ 15.86636|D|GELua.core_settings_graphic.graphic|Sanitizing refresh rate - 59: Passed.
+ 15.90082|D|GELua.core_settings_graphic.graphic|Applying graphic settings: \\.\DISPLAY2, Window, 1234 x 1040 59 Hz
+ 15.90113|D|Win32Window::setVideoMode|AntialiasLevel: 0,BitDepth: 32,DisplayMode: Window, RefreshRate: 59, Resolution: 1280x1024, wideScreen: 0
+ 15.93177|D|Win32Window::setSize|   moving window to: 1428,0 / 1296,1063
+ 15.93589|D|GFXD3D11WindowTarget::resetMode|setting video mode: Width 1280, Height 1005, Windowed 1, RefreshRate 59
+ 16.08615|D|GFXD3D11WindowTarget::resetMode|setting video mode: Width 1218, Height 1001, Windowed 1, RefreshRate 59
+ 16.09018|D|GFXD3D11WindowTarget::resetMode|setting video mode: Width 1218, Height 1001, Windowed 1, RefreshRate 59
+ 16.10222|D|GELua.core_settings_graphic.graphic|Available Video Modes : { "1920 1080", "1680 1050", "1600 900", "1440 900", "1400 1050", "1366 768", "1360 768", "1280 1024", "1280 960", "1280 800", "1280 768", "1280 720", "1280 600", "1152 864", "1024 768", "800 600", "720 480", "640 480" }
+ 16.13950|D|SFXSystem::createDevice|Using default audio device: Speakers (Conexant SmartAudio HD)
+ 16.28278|E|GELua.extensions|extension unavailable: "telemetry_gameTelemetry" at location: "telemetry/gameTelemetry"
+ 16.35913|E|GameEngineLua:Exception|[string "lua/ge/extensions//core/settings/settings.lua"]:567: attempt to index global 'telemetry_gameTelemetry' (a nil value)
+=============== Stack Traceback >> START >>
+(1) metamethod C function '__index'
+(2) Lua local 'funcListElement' at line 567 of chunk 'lua/ge/extensions//core/settings/settings.lua'
+  Local variables:
+  (*temporary) = nil
+  (*temporary) = number: 1.38352e-311
+  (*temporary) = nil
+  (*temporary) = string: "attempt to index global 'telemetry_gameTelemetry' (a nil value)"
+(3) Lua field 'hook' at line 635 of chunk 'lua/common/extensions.lua'
+  Local variables:
+  func = string: "onFirstUpdate"
+  funcList = table: 0x028bfe157b48  {1:function: 0x028bfde81b30, 2:function: 0x028bfde00c18, 3:function: 0x028bfde1db20 (more...)}
+  (for index) = number: 4
+  (for limit) = number: 7
+  (for step) = number: 1
+  i = number: 4
+  funcListElement = Lua function '?' (defined at line 558 of chunk lua/ge/extensions//core/settings/settings.lua)
+  extCallName = nil
+(4) Lua function 'updateFirstFrame' at file 'lua/ge/main.lua:339' (best guess)
+--------------- << END <<
+
+ 17.17676|D|CEF|MainGEUI | Uncaught ReferenceError: HookManager is not defined
+ 17.17704|D|CEF|MainGEUI | Uncaught ReferenceError: HookManager is not defined
+ 17.17727|D|CEF|MainGEUI | Uncaught ReferenceError: HookManager is not defined
+ 17.31582|E|BEAMNGCEF::BNGCefClient::OnResourceResponse|MainGEUI | local://local/ui/modules/mainmenu2/mainmenu2.js | response: 404 - ERROR
+ 17.37222|E|BEAMNGCEF::BNGCefClient::OnResourceResponse|MainGEUI | local://local/ui/modules/mainmenu2/mainmenu2.css | response: 404 - ERROR
+ 17.85468|E|BEAMNGCEF::BNGCefClient::OnResourceResponse|MainGEUI | local://local/ui/modules/mainmenu2/mainmenu2.js | response: 404 - ERROR
+ 17.89990|E|BEAMNGCEF::BNGCefClient::OnResourceResponse|MainGEUI | local://local/ui/modules/mainmenu2/mainmenu2.css | response: 404 - ERROR
+ 18.31718|D|GELua.core_gamestate.gamestate|show main menu (true)
+ 18.31858|D|GELua.core_gamestate.gamestate|ui finished loading
+ 18.54270|D|GELua.core_modmanager.initDB|mountEntry -- /mods/beamngpy.zip:  : beamngpy
+ 18.57464|D|CEF.local://local/ui/lib/int/logger.js:70|MainGEUI | [Console] Expected AppLayout but didn't get one :-( 
+ 18.87841|D|GELua.core_modmanager.initDB|Notification : took 0.0047ms to reorganise 3 files
+ 18.87864|D|GELua.core_modmanager.initDB|Notification : took 0.2695ms to callback
+ 24.81619|I|GELua.util_researchGE.ResearchGE|Accepted new client: 127.0.0.1/64256
+ 24.86625|D|StandardMainLoop::shutdown|*** shutdown ***
+ 24.86672|D|CommandListener|CommandListener done
+ 24.90717|D|TS|Exporting settings
+ 24.91825|D|GELua.onExit|Exiting
+ 24.93304|D|TS|Saving PostFX options
+ 24.93582|D|TS|% - PostFX Manager - All Settings applied to $PostFXManager::Settings

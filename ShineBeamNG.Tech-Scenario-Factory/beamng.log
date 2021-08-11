@@ -1,0 +1,445 @@
+-- Log started - v 0.21.3.0.0 - x64 - build 0 - 2021-8-9 -- 15:56:49 -----
+-- private build Marc - Wed Feb 03 13:43:40 2021 
+-- Log Format: Time since startup | Message level: D(ebug), I(nfo), W(arning), E(rror), A(lways) | Message
+  0.54546|I|StandardMainLoop::init|Virtual Filesystem: user path: C:/ShineAutonomousTesting/sbst-2021-tutorial/Code/
+  0.54575|D|StandardMainLoop::init| - user path reason: command argument -userpath
+  0.54589|D|StandardMainLoop::init| - user mods path: C:/ShineAutonomousTesting/sbst-2021-tutorial/Code/mods/
+  0.54601|D|StandardMainLoop::init| - game mods path: C:/ShineAutonomousTesting/BeamNG.tech/content/
+  0.54653|I|Processor::init|Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz ~2.59 GHz [HT,] 1 physical, 2 cores, 4 logical
+  0.55269|D|main|H2 7EE9F764DB6EF794ECCB3C94523236E68663
+  0.55503|D|ModuleManager::initializeSystem|initializing 79 modules (only displaying anything above 0.100000 s)...
+  0.65136|I|SFXFMODProvider::init|SFXFMODProvider - FMOD API version: 2.1.5
+  0.69081|D|ModuleManager::initializeSystem| - SFXModule in 0.135587 seconds
+  0.80061|D|ModuleManager::initializeSystem| - AFTER_MODULE_INIT( GFXModule ) in D:\Work\gameengine\Engine\source\gfx\D3D11\gfxD3D11Shader.cpp in 0.109637 seconds
+  0.81482|I|verifyResearchLicense|BeamNG.tech license verified.
+  0.81574|I|SFXSystem::initChannels|SFXSystem initChannels called.....
+  0.81687|D|SFXSystem::createDevice|Using default audio device: Speakers (Conexant SmartAudio HD)
+  1.18759|D|SFXSystem::createDevice|SFXSystem::createDevice - created FMOD device 'Speakers (Conexant SmartAudio HD)'
+  1.18771|D|SFXSystem::createDevice|   CAPS_VoiceManagement
+  1.18998|D|SFXSystem::finailizeInitialization|   Provider: FMOD
+  1.19010|D|SFXSystem::finailizeInitialization|   Hardware: Yes
+  1.19020|D|SFXSystem::finailizeInitialization|   Buffers: 16
+  1.19046|D|ModuleManager::initializeSystem| - AFTER_MODULE_INIT( BeamEngine ) in D:\Work\gameengine\Engine\source\sfx\sfxSystem.cpp in 0.374742 seconds
+  1.24782|I|GELua.|============== Game Engine Lua VM started ==============
+  1.69015|D|GELua.core_gamestate.gamestate|see if ui is loaded
+  2.18021|D|ModuleManager::initializeSystem| - GameEngineLua in 0.988604 seconds
+  2.18039|D|GFXInit::init|GFX Init:
+  2.20098|D|_GFXInitReportAdapters|   Null device found
+  2.20107|D|_GFXInitReportAdapters| Direct 3D (version 11) device found
+  2.20114|D|_GFXInitReportAdapters| Direct 3D (version 11) device found
+  2.20157|D|ModuleManager::initializeSystem|... all modules loaded in 1.646578 seconds
+  2.20170|D|Platform::init|Initializing platform...
+  2.20669|D|DirectInputInputDeviceSystem::initialize|Initializing DirectInput...
+  2.24695|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices start ***
+  2.26484|D|DirectInputDeviceV2::initialize|Mouse [instance: Mouse] detected, created as mouse0 (asynchronous)
+  2.26508|D|DirectInputDeviceV2::initialize| - devtype 0x112
+  2.26531|D|DirectInputDeviceV2::initialize| - A mouse or mouse-like device (such as a trackball)
+  2.26549|D|DirectInputDeviceV2::initialize| + 3 axes
+  2.26566|D|DirectInputDeviceV2::initialize| + 8 buttons
+  2.26629|D|DirectInputDeviceV2::initialize|created device 'mouse0', took 0.002s: create:0.038ms, caps:0.015ms, txts:1.121ms, enum:0.210ms, fmt:0.157ms, buff:0.009ms, axis:0.004ms
+  2.26651|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Mouse' took 0.002s: conv:0.007ms, type:0.003ms, xinp:0.003ms, add/create:1.853ms, create():0.002ms
+  2.27323|D|DirectInputDeviceV2::initialize|Keyboard [instance: Keyboard] detected, created as keyboard0 (asynchronous)
+  2.27343|D|DirectInputDeviceV2::initialize| - devtype 0x413
+  2.27363|D|DirectInputDeviceV2::initialize| - Keyboard or keyboard-like:
+  2.27382|D|DirectInputDeviceV2::initialize|  - IBM PC Enhanced 101/102-key or Microsoft Natural keyboard.
+  2.27401|D|DirectInputDeviceV2::initialize| + 128 buttons
+  2.29475|D|DirectInputDeviceV2::initialize|created device 'keyboard0', took 0.022s: create:0.811ms, caps:0.011ms, txts:1.036ms, enum:20.34ms, fmt:0.131ms, buff:0.001ms, axis:0.002ms
+  2.29499|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Keyboard' took 0.023s: conv:0.005ms, type:0.003ms, xinp:0.004ms, add/create:22.68ms, create():0.002ms
+  2.32192|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant consumer control device
+  2.32207|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant consumer control device' took 0.000s: conv:0.004ms, type:0.195ms
+  2.32979|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant system controller
+  2.32993|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant system controller' took 0.000s: conv:0.003ms, type:0.169ms
+  2.33009|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices end ***
+  2.33048|D|DirectInputDeviceV2::acquire|Not attempting to acquire device mouse0, since game window is not available
+  2.33059|D|DirectInputDeviceV2::acquire|Not attempting to acquire device keyboard0, since game window is not available
+  2.33404|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices start ***
+  2.34806|D|DirectInputDeviceV2::initialize|Mouse [instance: Mouse] detected, created as mouse0 (asynchronous)
+  2.34827|D|DirectInputDeviceV2::initialize| - devtype 0x112
+  2.34844|D|DirectInputDeviceV2::initialize| - A mouse or mouse-like device (such as a trackball)
+  2.34858|D|DirectInputDeviceV2::initialize| + 3 axes
+  2.34869|D|DirectInputDeviceV2::initialize| + 8 buttons
+  2.34898|D|DirectInputDeviceV2::initialize|created device 'mouse0', took 0.001s: create:0.012ms, caps:0.002ms, txts:0.821ms, enum:0.118ms, fmt:0.016ms, buff:0.006ms, axis:0.002ms
+  2.34914|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Mouse' took 0.001s: conv:0.003ms, type:0.002ms, xinp:0.002ms, add/create:1.164ms, create():0.001ms
+  2.34953|D|DirectInputDeviceV2::initialize|Keyboard [instance: Keyboard] detected, created as keyboard0 (asynchronous)
+  2.34964|D|DirectInputDeviceV2::initialize| - devtype 0x413
+  2.34974|D|DirectInputDeviceV2::initialize| - Keyboard or keyboard-like:
+  2.34985|D|DirectInputDeviceV2::initialize|  - IBM PC Enhanced 101/102-key or Microsoft Natural keyboard.
+  2.34995|D|DirectInputDeviceV2::initialize| + 128 buttons
+  2.35302|D|DirectInputDeviceV2::initialize|created device 'keyboard0', took 0.004s: create:0.098ms, caps:0.001ms, txts:0.536ms, enum:2.739ms, fmt:0.126ms, buff:0.001ms, axis:0.001ms
+  2.35324|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Keyboard' took 0.004s: conv:0.001ms, type:0.000ms, xinp:0.001ms, add/create:3.788ms, create():0.001ms
+  2.38463|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant consumer control device
+  2.38506|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant consumer control device' took 0.000s: conv:0.004ms, type:0.356ms
+  2.39465|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant system controller
+  2.39479|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant system controller' took 0.000s: conv:0.005ms, type:0.194ms
+  2.39495|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices end ***
+  2.39507|D|DirectInputDeviceV2::acquire|Not attempting to acquire device mouse0, since game window is not available
+  2.39518|D|DirectInputDeviceV2::acquire|Not attempting to acquire device keyboard0, since game window is not available
+  2.39578|D|Platform::init|Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz GenuineIntel x64
+  2.39610|D|Platform::init|Microsoft Windows 10 (v10.0) (build 19043), 64-bit
+  2.39624|D|Platform::init|Physical memory: 15.90 GB
+  2.39638|D|Platform::init|Battery: state: 'high' - online
+  2.39648|D|Platform::init|Process Priority: Normal (0x20)
+  2.39790|D|CommandListener|CommandListener started
+  2.40057|D|TS|command line args:
+  2.40070|D|TS| - 0 = C:\ShineAutonomousTesting\BeamNG.tech\Bin64\BeamNG.tech.x64.exe
+  2.40081|D|TS| - 1 = -console
+  2.40092|D|TS| - 2 = -rport
+  2.40106|D|TS| - 3 = 64256
+  2.40118|D|TS| - 4 = -nosteam
+  2.40131|D|TS| - 5 = -physicsfps
+  2.40161|D|TS| - 6 = 4000
+  2.40177|D|TS| - 7 = -lua
+  2.40192|D|TS| - 8 = registerCoreModule('util/researchGE')
+  2.40208|D|TS| - 9 = -userpath
+  2.40224|D|TS| - 10 = C:\ShineAutonomousTesting\sbst-2021-tutorial\Code
+  2.89816|D|GFXInit::createDevice|Attempting to create GFX device 0: Intel(R) HD Graphics Family (D3D11) [with output \\.\DISPLAY1]
+  2.89829|D|GFXInit::createDevice|shader model: 5.0 , available video modes: 25
+  2.89846|D|GFXInit::createDevice|Device created, setting adapter and enumerating modes
+  2.97579|D|GFXD3D11Device::init|Hardware occlusion query detected: Yes
+  2.97686|D|GFXCardProfiler::init|D3D11 -  (Intel(R) HD Graphics Family) [112 MB] ver 
+  2.97705|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureWidth' to 8192.
+  2.97722|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureHeight' to 8192.
+  2.97739|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureSize' to 8192.
+  2.97754|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'autoMipMapLevel' to 1.
+  2.97770|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'lerpDetailBlend' to 1.
+  2.97785|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'fourStageDetailBlend' to 1.
+  3.02629|D|GFXD3D11Device::init|GFXDevice 11 - SM 5.000000
+  3.03082|D|GFXD3D11WindowTarget::init|setting video mode: Width 1280, Height 720, Format 28, Windowed 1
+ 11.03929|D|TS|initClient start...
+ 11.04249|D|TS|initBaseClient start...
+ 11.04880|D|TS|initRenderManager
+ 11.04914|D|TS|initRenderManager
+ 11.04927|D|TS|--------- Initializing Lighting Systems ---------
+ 11.04938|D|TS|   Finding all the system files
+ 11.05286|D|TS|   exec: /core/scripts/client/lighting/shadowMaps/init.cs
+ 11.05455|D|TS|   exec: /core/scripts/client/lighting/basic/init.cs
+ 11.05875|D|TS|   exec: /core/scripts/client/lighting/advanced/init.cs
+ 11.09348|D|TS|   Finished with system files
+ 11.11797|D|TS|initPostEffects start...
+ 11.19792|D|TS|HDR FORMAT: GFXFormatR16G16B16A16F
+ 11.29166|D|TS|... initPostEffects done
+ 11.29184|D|TS|Initialize the post effect manager
+ 11.34938|D|TS|% - PostFX Manager - Executing settings/default.postfxpreset.cs
+ 11.35074|D|TS|% - PostFX Manager - Applying from preset
+ 11.35099|D|TS|% - PostFX Manager - PostFX enabled
+ 11.35117|D|TS|... initBaseClient done
+ 11.42427|D|TS|Attempting to set resolution to "1280 720 Window 32 60 0"
+ 11.42512|D|TS|Accepted Mode: 1280 720 Window 32 60 0
+ 11.95853|D|TS|... initClient done
+ 12.04300|I|BEAMNGCEF::CefManager::init|using CEF with software rasterizer
+ 12.28327|D|StandardMainLoop::doMainLoop|Started up in 12.28 seconds...
+ 12.29948|D|DirectInputDeviceV2::acquire|Succesfully acquired directinput device mouse0
+ 12.30036|D|DirectInputDeviceV2::acquire|Succesfully acquired directinput device keyboard0
+ 12.30606|D|SimConsoleEvent::process|TS:Executing schedule: 1 - MessageBoxOK
+ 12.32371|I|GELua.core_audio.onFirstUpdate|onFirstUpdate called....
+ 12.43078|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.assets.bank' in 0.102690 seconds. Preload sample data = true.
+ 12.53763|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.streams.bank' in 0.105153 seconds. Preload sample data = true.
+ 12.64703|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle_preload.assets.bank' in 0.107610 seconds. Preload sample data = true.
+ 12.74052|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle_preload.streams.bank' in 0.091886 seconds. Preload sample data = true.
+ 12.81800|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ambient_maps.streams.bank' in 0.076131 seconds. Preload sample data = false.
+ 12.86517|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/music.assets.bank' in 0.045065 seconds. Preload sample data = false.
+ 12.91107|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/music.streams.bank' in 0.044306 seconds. Preload sample data = false.
+ 12.97500|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ui.assets.bank' in 0.062525 seconds. Preload sample data = false.
+ 13.02115|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ui.streams.bank' in 0.044750 seconds. Preload sample data = false.
+ 13.08368|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle.assets.bank' in 0.061174 seconds. Preload sample data = false.
+ 13.14604|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle.streams.bank' in 0.060783 seconds. Preload sample data = false.
+ 13.23751|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.strings.bank' in 0.089435 seconds. Preload sample data = true.
+ 13.50611|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/main_preload.bank' in 0.264060 seconds. Preload sample data = true.
+ 14.23001|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle_preload.bank' in 0.715388 seconds. Preload sample data = true.
+ 14.27732|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/music.bank' in 0.042910 seconds. Preload sample data = false.
+ 14.33990|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ui.bank' in 0.060976 seconds. Preload sample data = false.
+ 14.78026|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/vehicle.bank' in 0.433937 seconds. Preload sample data = false.
+ 15.29404|D|GELua.core_cameraModes_relative.core_camera.relative|No refNodes found, using default fallback
+ 15.87886|D|reloadLanguages|Switched to OS language: '' -> 'en-US' ('en-US')
+ 15.88215|D|GELua.core_settings_settings.settings|set font: segoeui.ttf, 19px
+ 15.90673|D|GELua.core_settings_graphic.graphic|Sanitizing display - //./DISPLAY2: Passed.
+ 15.90693|D|GELua.core_settings_graphic.graphic|Sanitizing display mode - Window: Passed.
+ 15.90969|D|GELua.core_settings_graphic.graphic|Sanitizing display resolution - 1366 768: Passed.
+ 15.91258|D|GELua.core_settings_graphic.graphic|Sanitizing refresh rate - 59: Passed.
+ 15.93873|D|GELua.core_settings_graphic.graphic|Applying graphic settings: \\.\DISPLAY2, Window, 1234 x 1040 59 Hz
+ 15.93896|D|Win32Window::setVideoMode|AntialiasLevel: 0,BitDepth: 32,DisplayMode: Window, RefreshRate: 59, Resolution: 1280x1024, wideScreen: 0
+ 15.96626|D|Win32Window::setSize|   moving window to: 1428,0 / 1296,1063
+ 15.97015|D|GFXD3D11WindowTarget::resetMode|setting video mode: Width 1280, Height 1005, Windowed 1, RefreshRate 59
+ 16.09652|D|GFXD3D11WindowTarget::resetMode|setting video mode: Width 1218, Height 1001, Windowed 1, RefreshRate 59
+ 16.10508|D|GFXD3D11WindowTarget::resetMode|setting video mode: Width 1218, Height 1001, Windowed 1, RefreshRate 59
+ 16.11845|D|GELua.core_settings_graphic.graphic|Available Video Modes : { "1920 1080", "1680 1050", "1600 900", "1440 900", "1400 1050", "1366 768", "1360 768", "1280 1024", "1280 960", "1280 800", "1280 768", "1280 720", "1280 600", "1152 864", "1024 768", "800 600", "720 480", "640 480" }
+ 16.17617|D|SFXSystem::createDevice|Using default audio device: Speakers (Conexant SmartAudio HD)
+ 16.20872|E|GELua.extensions|extension unavailable: "telemetry_gameTelemetry" at location: "telemetry/gameTelemetry"
+ 16.23966|E|GameEngineLua:Exception|[string "lua/ge/extensions//core/settings/settings.lua"]:567: attempt to index global 'telemetry_gameTelemetry' (a nil value)
+=============== Stack Traceback >> START >>
+(1) metamethod C function '__index'
+(2) Lua local 'funcListElement' at line 567 of chunk 'lua/ge/extensions//core/settings/settings.lua'
+  Local variables:
+  (*temporary) = nil
+  (*temporary) = number: 1.16903e-311
+  (*temporary) = nil
+  (*temporary) = string: "attempt to index global 'telemetry_gameTelemetry' (a nil value)"
+(3) Lua field 'hook' at line 635 of chunk 'lua/common/extensions.lua'
+  Local variables:
+  func = string: "onFirstUpdate"
+  funcList = table: 0x0226e917c7c8  {1:function: 0x0226e9243998, 2:function: 0x0226e94b35b8, 3:function: 0x0226e9401f68 (more...)}
+  (for index) = number: 4
+  (for limit) = number: 7
+  (for step) = number: 1
+  i = number: 4
+  funcListElement = Lua function '?' (defined at line 558 of chunk lua/ge/extensions//core/settings/settings.lua)
+  extCallName = nil
+(4) Lua function 'updateFirstFrame' at file 'lua/ge/main.lua:339' (best guess)
+--------------- << END <<
+
+ 16.91751|D|CEF|MainGEUI | Uncaught ReferenceError: HookManager is not defined
+ 16.91781|D|CEF|MainGEUI | Uncaught ReferenceError: HookManager is not defined
+ 17.08766|E|BEAMNGCEF::BNGCefClient::OnResourceResponse|MainGEUI | local://local/ui/modules/mainmenu2/mainmenu2.js | response: 404 - ERROR
+ 17.15132|E|BEAMNGCEF::BNGCefClient::OnResourceResponse|MainGEUI | local://local/ui/modules/mainmenu2/mainmenu2.css | response: 404 - ERROR
+ 17.54259|E|BEAMNGCEF::BNGCefClient::OnResourceResponse|MainGEUI | local://local/ui/modules/mainmenu2/mainmenu2.js | response: 404 - ERROR
+ 17.59314|E|BEAMNGCEF::BNGCefClient::OnResourceResponse|MainGEUI | local://local/ui/modules/mainmenu2/mainmenu2.css | response: 404 - ERROR
+ 18.33502|D|GELua.core_gamestate.gamestate|show main menu (true)
+ 18.33791|D|GELua.core_gamestate.gamestate|ui finished loading
+ 18.83309|D|GELua.core_modmanager.initDB|mountEntry -- /mods/beamngpy.zip:  : beamngpy
+ 18.90798|D|CEF.local://local/ui/lib/int/logger.js:70|MainGEUI | [Console] Expected AppLayout but didn't get one :-( 
+ 19.62288|D|GELua.core_modmanager.initDB|Notification : took 0.0079ms to reorganise 3 files
+ 19.62340|D|GELua.core_modmanager.initDB|Notification : took 0.574ms to callback
+ 24.78378|I|GELua.util_researchGE.ResearchGE|Accepted new client: 127.0.0.1/64256
+ 24.89637|I|GELua.util_researchGE.ResearchGE|Loading scenario: /levels/tig/scenarios/shinetest.json
+ 25.05079|D|GELua.scenario_scenarios.scenarios|loading level: levels/tig/
+ 25.05098|D|GELua.core_gamestate.gamestate|loading screen request from: ; value before was: nil
+ 25.05110|D|GELua.core_gamestate.gamestate|sending show loading screen
+ 25.05165|D|GELua.core_gamestate.gamestate|ui initialised (true)
+ 25.05188|D|GELua.core_gamestate.gamestate|waiting for ui (false)
+ 25.05252|D|GELua.core_gamestate.gamestate|loading screen request from: server.lua; value before was: nil
+ 25.05270|D|GELua.core_gamestate.gamestate|ui initialised (true)
+ 25.05287|D|GELua.core_gamestate.gamestate|waiting for ui (false)
+ 25.05304|D|GELua.core_gamestate.gamestate|loading screen request from: worldReadyState; value before was: nil
+ 25.05323|D|GELua.core_gamestate.gamestate|ui initialised (true)
+ 25.05340|D|GELua.core_gamestate.gamestate|waiting for ui (false)
+ 25.05357|D|GELua.core_gamestate.gamestate|exiting : 
+ 25.05614|I|GELua.util_researchGE.ResearchGE|Scenario found...
+ 26.07271|D|GELua.core_gamestate.gamestate|ui told us loading screen is now loaded
+ 26.13629|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ambient_maps.assets.bank' in 0.061825 seconds. Preload sample data = false.
+ 26.34818|D|SFXFMODProject::acquire|SFXFMODProject: Opened project '/art/sound/fmod/desktop/ambient_maps.bank' in 0.157845 seconds. Preload sample data = false.
+ 26.46295|D|GELua.core_vehicles.main|Loading default vehicle
+ 26.46387|D|GELua.core_vehicles.main|Loading the default vehicle pickup
+ 26.46789|I|GELua.levelLoading|*** loading level: levels/tig/info.json
+ 26.47032|I|GELua.levelLoading|*** Loading init took: 0.395 s
+ 27.48635|I|GELua.levelLoading|*** Loaded datablocks in 1.015 s
+ 27.53459|E|loadJsonMaterialsFile|unable to unserialize file: /levels/tig/art/road/._main.materials.json  Error 1
+ 27.59417|E|ProcessedMaterial::_setStageData|Failed to load annotation map /levels/tig/art/decals/roadmarkings1_annotation.png
+ 27.64749|E|ProcessedMaterial::_setStageData|Failed to load annotation map /levels/tig/art/decals/roadmarkings1_annotation.png
+ 27.70310|I|GELua.levelLoading|*** Loaded materials in 0.216 s
+ 27.70575|I|LoadingManager|starting to load objects. Displaying items above 10 ms
+ 27.71167|I|LoadingManager::loadLevelJsonObjects|* loading json took 0.004 s
+ 27.71353|I|LoadingManager::loadLevelJsonObjects|* ordering json took 0.002 s
+ 27.71541|I|LoadingManager| ===== Base       ===================================
+ 27.76721|I|LoadingManager|               LevelInfo [    1] in 0.047 s | 0.047 s/item
+ 27.84528|I|LoadingManager|          CameraBookmark [    1] in 0.032 s | 0.032 s/item
+ 27.84959|I|LoadingManager|                              total 0.130 s
+ 27.85872|I|LoadingManager| ===== Terrain    ===================================
+ 28.47929|W|TerrainBlock::onAdd|Terrain file is outdated (version 7 vs 8): levels/tig/terrain.ter - Please resave the terrain to upgrade to the new format
+ 30.21350|I|LoadingManager|            TerrainBlock [    1] in 2.351 s | 2.351 s/item
+ 30.21664|I|LoadingManager|                              total 2.355 s
+ 30.22017|I|LoadingManager| ===== Environment ===================================
+ 30.25611|I|LoadingManager|              CloudLayer [    2] in 0.032 s | 0.016 s/item
+ 30.31203|I|LoadingManager|              ScatterSky [    1] in 0.050 s | 0.050 s/item
+ 30.31532|I|LoadingManager|                              total 0.092 s
+ 30.31853|I|LoadingManager| ===== Forest     ===================================
+ 30.35406|W|Forest::reloadData| === Old forest file format detected. Please resave the forest and delete the old files. ===
+ 30.35827|W|Forest::reloadData|no forest files loaded
+ 30.36729|I|LoadingManager|                  Forest [    1] in 0.045 s | 0.045 s/item
+ 30.37090|I|LoadingManager|                              total 0.049 s
+ 30.37412|I|LoadingManager| ===== Meshes     ===================================
+ 30.37720|I|LoadingManager|                              total 0.000 s
+ 30.38209|I|LoadingManager| ===== Prefabs    ===================================
+ 30.57051|I|LoadingManager|                  Prefab [    1] in 0.155 s | 0.155 s/item
+ 30.57765|I|LoadingManager|                              total 0.188 s
+ 30.58092|I|LoadingManager| ===== Roads      ===================================
+ 30.58433|I|LoadingManager|                              total 0.000 s
+ 30.58751|I|LoadingManager| ===== Audio      ===================================
+ 30.59583|I|LoadingManager|                              total 0.000 s
+ 30.61417|I|SceneStaticManagerRender::_onObjectsReady|*** Built static data in 0.014s
+ 30.61761|I|LoadingManager::loadLevelJsonObjects|* loading took 2.902 s
+ 30.63512|I|GELua.levelLoading|*** Level loaded: /levels/tig/info.json
+ 30.63923|I|GELua.levelLoading|*** Loaded objects in 2.935 s
+ 30.64441|I|GELua.levelLoading|*** Loaded ai.map in 0.004 s
+ 30.65176|I|GELua.levelLoading|*** Loaded decals in 0.007 s
+ 30.65493|I|BeamNGPhysicsPlugin::enableSimulation|RELOADING COLLISION
+ 30.65602|D|BeamNGCollision::addTerrainBlock|depth image map not existing: levels/tig/terrain.ter.depth.png all fluids will be disabled as ground type
+ 30.72819|I|BeamNGPhysicsPlugin::reload|*** generated physics collision in 0.068s
+ 30.73099|I|BeamNGPhysicsPlugin::reload|*** reloaded physics in 0.073s
+ 30.73362|I|GELua.levelLoading|*** Started physics in 0.085 s
+ 30.73447|D|GELua.serverConnection|Everything should be loaded setting worldReadyState to 1
+ 30.73464|D|GELua.scenario_scenarios.scenarios|changeState: pre-start
+ 30.73883|W|GELua.spawn.lua|No SpawnPointName in mission file vehicle spawn in the default position
+ 30.75581|W|GELua.spawn.lua|No SpawnPointName in mission file vehicle spawn in the default position
+ 30.77192|W|SimNameDictionary::insert|Warning! You have a duplicate datablock name of DefaultCameraSpawnSphere. This can cause problems. You should rename one of them. ID (this object) 7849 and 7847 are conflicting.
+ 30.77722|W|GELua.spawn.lua|No SpawnPointName in mission file vehicle spawn in the default position
+ 30.77814|D|GELua.spawn.lua|not spawning player upon request
+ 30.78092|I|GELua.levelLoading|*** Loaded player and camera in 0.047 s
+ 30.78132|D|GELua.core_gamestate.gamestate|exiting : server.lua
+ 30.78461|D|GELua.clientStartMission|starting mission: /levels/tig/info.json
+ 30.78481|D|GELua.scenario_scenarios.scenarios|Starting scenario : shinetest
+ 30.78489|D|GELua.scenario_scenarios.scenarios|Scenario path : /levels/tig/scenarios/shinetest.json
+ 30.78514|D|GELua.scenario_scenarios.scenarios|spawning prefabs ...
+ 30.78547|D|GELua.lua|adding prefab shinetest
+ 30.78756|D|GELua.lua|loading prefab shinetest
+ 30.81547|I|BeamNGVehicle::spawnObject|Spawning object 'etk800' with default config
+ 31.16942|D|GELua.core_vehicle_manager.vehicleLoader|partConfigData [string] = ""
+ 31.18015|E|lua_fopen_sandboxed|Opening empty filename!!
+ 32.04617|D|GELua.core_vehicle_manager.|- Preparing jbeam
+ 32.04632|D|GELua.core_vehicle_manager.| - 1 refNodes
+ 32.04644|D|GELua.core_vehicle_manager.| - 2 camerasInternal
+ 32.04657|D|GELua.core_vehicle_manager.| - 9 soundscape
+ 32.07751|D|GELua.core_vehicle_manager.| - 3262 beams
+ 32.07803|D|GELua.core_vehicle_manager.| - 13 variables
+ 32.07927|D|GELua.core_vehicle_manager.| - 34 props
+ 32.08033|D|GELua.core_vehicle_manager.| - 135 flexbodies
+ 32.08058|D|GELua.core_vehicle_manager.| - 14 torsionbars
+ 32.08067|D|GELua.core_vehicle_manager.| - 1 energyStorage
+ 32.08113|D|GELua.core_vehicle_manager.| - 4 pressureWheels
+ 32.08140|D|GELua.core_vehicle_manager.| - 13 powertrain
+ 32.08375|D|GELua.core_vehicle_manager.| - 513 triangles
+ 32.08392|D|GELua.core_vehicle_manager.| - 17 controller
+ 32.08404|D|GELua.core_vehicle_manager.| - 4 slidenodes
+ 32.08414|D|GELua.core_vehicle_manager.| - 2 hydros
+ 32.09086|D|GELua.core_vehicle_manager.| - 525 nodes
+ 32.10793|D|GELua.core_vehicle_manager.jbeam.prepareLinks|optional link discarded: beams/69 > nodes/f11 - OPTIONAL DATA DISCARDED
+ 32.10804|D|GELua.core_vehicle_manager.jbeam.prepareLinks|optional link discarded: beams/71 > nodes/f11 - OPTIONAL DATA DISCARDED
+ 32.11511|D|GELua.core_vehicle_manager.jbeam.prepareLinks|optional link discarded: beams/1226 > nodes/int7 - OPTIONAL DATA DISCARDED
+ 32.11544|D|GELua.core_vehicle_manager.jbeam.prepareLinks|optional link discarded: beams/1285 > nodes/int7 - OPTIONAL DATA DISCARDED
+ 32.17853|D|GELua.core_vehicle_manager.jbeam.postProcess| - processed 2 cameras.onboard
+ 32.27723|D|GELua.core_vehicle_manager.jbeam.postProcess| - processed 65 groups
+ 33.22978|D|GELua.core_vehicle_manager.jbeam.pushToPhysics|- added 34 props
+ 33.59736|D|GELua.core_vehicle_manager.loader|GE load time: 2.5168398 s
+ 33.63722|I|GELua.main|Player #0 vehicle switched from: nil to: id 7854 (/vehicles/etk800/)
+ 33.69188|D|GELua.core_cameraModes_relative.core_camera.relative|No refNodes found, using default fallback
+ 33.69347|D|GELua.core_camera.|Camera switched to "orbit"
+ 34.11836|D|libbeamng.lua.V.default.init|spawning vehicle /vehicles/etk800/
+ 34.61206|D|libbeamng.lua.V.jbeam.pushToPhysics| ** pushing vehicle to physics
+ 34.67859|D|libbeamng.lua.V.loader|Vehicle loading took: 66.5161 ms
+ 40.01680|I|BeamNGVehicle::spawnObject|Spawning object 'citybus' with default config
+ 40.02935|D|GELua.core_vehicle_manager.vehicleLoader|partConfigData [string] = ""
+ 40.03066|E|lua_fopen_sandboxed|Opening empty filename!!
+ 40.06686|D|GELua.jbeam.getPart|Loaded 15 part(s) from file /vehicles/common/brakepads.jbeam
+ 40.06784|D|GELua.core_vehicle_manager.jbeam.fillSlots|no suitable part found for type: citybus_seats_ballast
+ 40.07043|D|GELua.jbeam.getPart|Loaded 83 part(s) from file /vehicles/common/sounds/soundscape.jbeam
+ 40.07249|D|GELua.core_vehicle_manager.|- Preparing jbeam
+ 40.07268|D|GELua.core_vehicle_manager.| - 3 camerasInternal
+ 40.07278|D|GELua.core_vehicle_manager.| - 9 soundscape
+ 40.07287|D|GELua.core_vehicle_manager.| - 6 airbagBeamData
+ 40.07294|D|GELua.core_vehicle_manager.| - 2 airbagBeamSoundData
+ 40.10136|D|GELua.core_vehicle_manager.| - 4211 beams
+ 40.10153|D|GELua.core_vehicle_manager.| - 7 variables
+ 40.10164|D|GELua.core_vehicle_manager.| - 8 doorBeamData
+ 40.10171|D|GELua.core_vehicle_manager.| - 2 doorBeamSoundData
+ 40.10316|D|GELua.core_vehicle_manager.| - 169 flexbodies
+ 40.10377|D|GELua.core_vehicle_manager.| - 6 pressureWheels
+ 40.10398|D|GELua.core_vehicle_manager.| - 14 powertrain
+ 40.10409|D|GELua.core_vehicle_manager.| - 1 hydros
+ 40.10430|D|GELua.core_vehicle_manager.| - 10 slidenodes
+ 40.10818|D|GELua.core_vehicle_manager.| - 865 triangles
+ 40.10828|D|GELua.core_vehicle_manager.| - 6 controller
+ 40.10835|D|GELua.core_vehicle_manager.| - 1 energyStorage
+ 40.11424|D|GELua.core_vehicle_manager.| - 741 nodes
+ 40.11432|D|GELua.core_vehicle_manager.| - 1 refNodes
+ 40.11482|D|GELua.core_vehicle_manager.| - 28 props
+ 40.17593|D|GELua.core_vehicle_manager.jbeam.postProcess| - processed 3 cameras.onboard
+ 40.23411|D|GELua.core_vehicle_manager.jbeam.postProcess| - processed 81 groups
+ 40.45565|D|GELua.core_vehicle_manager.jbeam.pushToPhysics|- added 28 props
+ 40.56707|D|GELua.core_vehicle_manager.loader|GE load time: 0.5377679 s
+ 40.56918|I|GELua.main|Player #0 vehicle switched from: id 7854 (/vehicles/etk800/) to: id 8534 (/vehicles/citybus/)
+ 40.57445|D|GELua.core_cameraModes_relative.core_camera.relative|No refNodes found, using default fallback
+ 40.57475|D|GELua.core_camera.|Camera switched to "orbit"
+ 40.68190|D|libbeamng.lua.V.default.init|spawning vehicle /vehicles/citybus/
+ 40.79117|D|libbeamng.lua.V.jbeam.pushToPhysics| ** pushing vehicle to physics
+ 40.80635|D|libbeamng.lua.V.loader|Vehicle loading took: 15.2025 ms
+ 45.21892|D|CEF.local://local/vehicles/citybus/display/citybusDisplayFont.js:1060|VehicleTex-@busDestinationDsp | font Loaded
+ 45.92719|I|BeamNGVehicle::spawnObject|Spawning object 'autobello' with default config
+ 45.93749|D|GELua.core_vehicle_manager.vehicleLoader|partConfigData [string] = ""
+ 45.93948|E|lua_fopen_sandboxed|Opening empty filename!!
+ 46.00264|D|GELua.jbeam.getPart|Loaded 83 part(s) from file /vehicles/common/sounds/soundscape.jbeam
+ 46.00366|D|GELua.jbeam.getPart|Loaded 15 part(s) from file /vehicles/common/brakepads.jbeam
+ 46.00487|D|GELua.jbeam.getPart|Loaded 9 part(s) from file /vehicles/common/wheels/wheels_4lug/steelwheels_F_4.jbeam
+ 46.00571|D|GELua.jbeam.getPart|Loaded 5 part(s) from file /vehicles/common/tires/tires_13/tires_13x5/tires_F_13x5_biasply.jbeam
+ 46.00706|D|GELua.jbeam.getPart|Loaded 9 part(s) from file /vehicles/common/wheels/wheels_4lug/steelwheels_R_4.jbeam
+ 46.00786|D|GELua.jbeam.getPart|Loaded 5 part(s) from file /vehicles/common/tires/tires_13/tires_13x5/tires_R_13x5_biasply.jbeam
+ 46.00819|D|GELua.core_vehicle_manager.|- Preparing jbeam
+ 46.00828|D|GELua.core_vehicle_manager.| - 1 refNodes
+ 46.00837|D|GELua.core_vehicle_manager.| - 2 camerasInternal
+ 46.00847|D|GELua.core_vehicle_manager.| - 10 soundscape
+ 46.00853|D|GELua.core_vehicle_manager.| - 0 thrusters
+ 46.02169|D|GELua.core_vehicle_manager.| - 2410 beams
+ 46.02189|D|GELua.core_vehicle_manager.| - 13 variables
+ 46.02234|D|GELua.core_vehicle_manager.| - 24 props
+ 46.02322|D|GELua.core_vehicle_manager.| - 104 flexbodies
+ 46.02336|D|GELua.core_vehicle_manager.| - 12 torsionbars
+ 46.02343|D|GELua.core_vehicle_manager.| - 1 energyStorage
+ 46.02373|D|GELua.core_vehicle_manager.| - 4 pressureWheels
+ 46.02387|D|GELua.core_vehicle_manager.| - 11 powertrain
+ 46.02397|D|GELua.core_vehicle_manager.| - 7 slidenodes
+ 46.02542|D|GELua.core_vehicle_manager.| - 466 triangles
+ 46.02549|D|GELua.core_vehicle_manager.| - 1 controller
+ 46.02806|D|GELua.core_vehicle_manager.| - 457 nodes
+ 46.02815|D|GELua.core_vehicle_manager.| - 2 torsionHydros
+ 46.06531|D|GELua.core_vehicle_manager.jbeam.postProcess| - processed 2 cameras.onboard
+ 46.13953|D|GELua.core_vehicle_manager.jbeam.postProcess| - processed 67 groups
+ 46.49564|W|GELua.core_vehicles.setPlateText|license plate format not found '52-11' in style 'vehicles/common/licenseplates/default/licensePlate-default.json'
+ 46.50205|I|GELua.core_vehicles.setPlateText|license plate fallback used 'vehicles/common/licenseplates/default/licensePlate-default-52-11.json'
+ 47.13503|D|GELua.core_vehicle_manager.jbeam.pushToPhysics|- added 24 props
+ 47.46270|D|GELua.core_vehicle_manager.loader|GE load time: 1.5247134 s
+ 47.58024|I|GELua.main|Player #0 vehicle switched from: id 8534 (/vehicles/citybus/) to: id 8680 (/vehicles/autobello/)
+ 47.60921|D|GELua.core_cameraModes_relative.core_camera.relative|No refNodes found, using default fallback
+ 47.61012|D|GELua.core_camera.|Camera switched to "orbit"
+ 48.03531|D|libbeamng.lua.V.default.init|spawning vehicle /vehicles/autobello/
+ 48.39699|D|libbeamng.lua.V.jbeam.pushToPhysics| ** pushing vehicle to physics
+ 48.43681|D|libbeamng.lua.V.loader|Vehicle loading took: 39.5572 ms
+ 51.42565|E|GELua.scenario_scenarios.scenarios|Prefab: shinetest already exist in level
+ 51.42708|I|BeamNGPhysicsPlugin::enableSimulation|RELOADING COLLISION
+ 51.43034|D|BeamNGCollision::addTerrainBlock|depth image map not existing: levels/tig/terrain.ter.depth.png all fluids will be disabled as ground type
+ 51.46364|I|BeamNGPhysicsPlugin::reload|*** generated physics collision in 0.034s
+ 51.46573|I|BeamNGPhysicsPlugin::reload|*** reloaded physics in 0.037s
+ 51.47108|I|GELua.editor_main.editor|Initializing editor modules...
+ 51.49453|D|GELua.editor_api_gui.gui|initialize
+ 52.04631|I|GELua.levelLoading|*** Loaded everything in 25.967 s
+ 52.08643|E|BeamNGVehicle::queueJSUITexture|UI Texture to execute JS not found: @etk800_screen
+ 52.09019|D|GELua.core_gamestate.gamestate|ui told us loading screen is now loaded
+ 52.28766|D|GELua.scenario_scenarios.processVehiclesInScene|processing vehicles. Found 3 vehicles
+ 52.49957|I|GELua.main|Player #0 vehicle switched from: id 8680 (/vehicles/autobello/) to: id 7854 (/vehicles/etk800/)
+ 52.52513|D|GELua.scenario_scenarios.scenarios|7854 = ego
+ 52.52550|D|GELua.scenario_scenarios.scenarios|8534 = opposite
+ 52.52577|D|GELua.scenario_scenarios.scenarios|8680 = heading
+ 52.64834|D|GELua.gamestate|Checking material finished loading
+ 52.64868|D|GELua.core_gamestate.gamestate|exiting : worldReadyState
+ 52.64894|D|GELua.core_gamestate.gamestate|show main menu (false)
+ 52.65001|D|GELua.core_gamestate.gamestate|exiting loading screen to menu
+ 53.31744|D|Material::_mapMaterial|[Material::mapMaterial] - Cannot map unnamed Material - 
+ 54.07607|D|CEF.local://local/vehicles/citybus/display/citybusDestinationDisplay.html:76|VehicleTex-@busDestinationDsp | [object Object]
+ 54.36643|E|BEAMNGCEF::BNGCefClient::OnResourceResponse|MainGEUI | local://local/ui/modules/apps/CharacterRealtimeDisplay/app.js | response: 404 - ERROR
+ 54.60055|D|CEF.local://local/vehicles/citybus/display/citybusDestinationDisplay.html:225|VehicleTex-@busDestinationDsp | starting pos:
+ 55.67101|D|CEF.local://local/ui/modules/apps/app-container.js:112|MainGEUI | Failed to load characterRealtimeDisplay directive
+ 57.56389|D|GELua.scenario_scenarios.scenarios|onScenarioUIReady(start)
+ 57.56507|D|GELua.scenario_scenarios.scenarios|changeState: pre-running
+ 57.56623|D|GELua.statistics_statistics.statistics|onRaceGoalsInitilised: called 
+ 57.56633|D|GELua.statistics_statistics.statistics|initialiseTables called...
+ 57.62037|I|GELua.scenario_waypoints.waypoints|initialise called....
+ 57.71158|D|GELua.scenario_scenarios.scenarios|should run: false; state: pre-running
+ 57.82096|I|GELua.util_researchGE.ResearchGE|Setting engine flags.
+ 58.35443|I|GELua.util_researchGE.ResearchGE|New vehicle connection: 7854, 49629
+ 58.45637|I|GELua.util_researchGE.ResearchGE|Setting engine flags.
+ 68.49426|I|libbeamng.lua.V.ResearchVE|Accepted new vehicle client: 127.0.0.1/49629
+ 68.86228|I|GELua.util_researchGE.ResearchGE|New vehicle connection: 8534, 49654
+ 68.88320|I|GELua.util_researchGE.ResearchGE|Setting engine flags.
+ 79.28597|I|libbeamng.lua.V.ResearchVE|Accepted new vehicle client: 127.0.0.1/49654
+ 79.47814|I|GELua.util_researchGE.ResearchGE|New vehicle connection: 8680, 55981
+ 79.54962|I|GELua.util_researchGE.ResearchGE|Setting engine flags.
+ 88.81886|I|libbeamng.lua.V.ResearchVE|Accepted new vehicle client: 127.0.0.1/55981
+ 88.82234|D|GELua.scenario_scenarios.scenarios|changeState: running
+ 88.82261|D|GELua.core_camera.|Camera switched to "orbit"
+ 89.20587|E|libbeamng.lua.V.ResearchCom|Error reading from socket: closed
+ 89.20775|E|libbeamng.lua.V.ResearchCom|Error reading from socket: tcp{client}: 00000227098E7A38 - closed
+ 89.20982|E|libbeamng.lua.V.ResearchCom|Error reading from socket: closed
+ 89.22001|E|libbeamng.lua.V.ResearchCom|Error reading from socket: tcp{client}: 00000226DB9B3B60 - closed
+ 89.22544|E|libbeamng.lua.V.ResearchCom|Error reading from socket: closed
+ 89.22676|E|libbeamng.lua.V.ResearchCom|Error reading from socket: tcp{client}: 00000226A5104750 - closed
+ 89.32337|D|StandardMainLoop::shutdown|*** shutdown ***
+ 89.32367|D|CommandListener|CommandListener done
+ 89.32596|I|GELua.server.lua|*** Level ended: /levels/tig/info.json
+ 89.32624|D|GELua.core_replay.|Stopping from state: idle

@@ -1,0 +1,143 @@
+-- Log started - v 0.21.3.0.0 - x64 - build 0 - 2021-8-9 -- 15:56:35 -----
+-- private build Marc - Wed Feb 03 13:43:40 2021 
+-- Log Format: Time since startup | Message level: D(ebug), I(nfo), W(arning), E(rror), A(lways) | Message
+  0.76983|I|StandardMainLoop::init|Virtual Filesystem: user path: C:/ShineAutonomousTesting/sbst-2021-tutorial/Code/
+  0.77020|D|StandardMainLoop::init| - user path reason: command argument -userpath
+  0.77038|D|StandardMainLoop::init| - user mods path: C:/ShineAutonomousTesting/sbst-2021-tutorial/Code/mods/
+  0.77054|D|StandardMainLoop::init| - game mods path: C:/ShineAutonomousTesting/BeamNG.tech/content/
+  0.77123|I|Processor::init|Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz ~2.59 GHz [HT,] 1 physical, 2 cores, 4 logical
+  0.77764|D|main|H2 7EE9F764DB6EF794ECCB3C94523236E68663
+  0.78005|D|ModuleManager::initializeSystem|initializing 79 modules (only displaying anything above 0.100000 s)...
+  0.88157|I|SFXFMODProvider::init|SFXFMODProvider - FMOD API version: 2.1.5
+  0.94652|D|ModuleManager::initializeSystem| - SFXModule in 0.166274 seconds
+  1.15258|D|ModuleManager::initializeSystem| - AFTER_MODULE_INIT( GFXModule ) in D:\Work\gameengine\Engine\source\gfx\D3D11\gfxD3D11Shader.cpp in 0.205898 seconds
+  1.16915|I|verifyResearchLicense|BeamNG.tech license verified.
+  1.16996|I|SFXSystem::initChannels|SFXSystem initChannels called.....
+  1.17116|D|SFXSystem::createDevice|Using default audio device: Speakers (Conexant SmartAudio HD)
+  1.61434|D|SFXSystem::createDevice|SFXSystem::createDevice - created FMOD device 'Speakers (Conexant SmartAudio HD)'
+  1.61444|D|SFXSystem::createDevice|   CAPS_VoiceManagement
+  1.61613|D|SFXSystem::finailizeInitialization|   Provider: FMOD
+  1.61621|D|SFXSystem::finailizeInitialization|   Hardware: Yes
+  1.61627|D|SFXSystem::finailizeInitialization|   Buffers: 16
+  1.61644|D|ModuleManager::initializeSystem| - AFTER_MODULE_INIT( BeamEngine ) in D:\Work\gameengine\Engine\source\sfx\sfxSystem.cpp in 0.446523 seconds
+  1.70121|I|GELua.|============== Game Engine Lua VM started ==============
+  2.04320|D|GELua.core_gamestate.gamestate|see if ui is loaded
+  2.32378|D|ModuleManager::initializeSystem| - GameEngineLua in 0.706371 seconds
+  2.32392|D|GFXInit::init|GFX Init:
+  2.33873|D|_GFXInitReportAdapters|   Null device found
+  2.33880|D|_GFXInitReportAdapters| Direct 3D (version 11) device found
+  2.33886|D|_GFXInitReportAdapters| Direct 3D (version 11) device found
+  2.33912|D|ModuleManager::initializeSystem|... all modules loaded in 1.559175 seconds
+  2.33918|D|Platform::init|Initializing platform...
+  2.34207|D|DirectInputInputDeviceSystem::initialize|Initializing DirectInput...
+  2.37283|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices start ***
+  2.39073|D|DirectInputDeviceV2::initialize|Mouse [instance: Mouse] detected, created as mouse0 (asynchronous)
+  2.39099|D|DirectInputDeviceV2::initialize| - devtype 0x112
+  2.39137|D|DirectInputDeviceV2::initialize| - A mouse or mouse-like device (such as a trackball)
+  2.39157|D|DirectInputDeviceV2::initialize| + 3 axes
+  2.39174|D|DirectInputDeviceV2::initialize| + 8 buttons
+  2.39237|D|DirectInputDeviceV2::initialize|created device 'mouse0', took 0.002s: create:0.036ms, caps:0.027ms, txts:1.359ms, enum:0.256ms, fmt:0.093ms, buff:0.010ms, axis:0.003ms
+  2.39261|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Mouse' took 0.002s: conv:0.009ms, type:0.003ms, xinp:0.004ms, add/create:2.109ms, create():0.002ms
+  2.40921|D|DirectInputDeviceV2::initialize|Keyboard [instance: Keyboard] detected, created as keyboard0 (asynchronous)
+  2.40948|D|DirectInputDeviceV2::initialize| - devtype 0x413
+  2.40965|D|DirectInputDeviceV2::initialize| - Keyboard or keyboard-like:
+  2.40985|D|DirectInputDeviceV2::initialize|  - IBM PC Enhanced 101/102-key or Microsoft Natural keyboard.
+  2.41002|D|DirectInputDeviceV2::initialize| + 128 buttons
+  2.42000|D|DirectInputDeviceV2::initialize|created device 'keyboard0', took 0.016s: create:4.880ms, caps:0.007ms, txts:1.207ms, enum:9.628ms, fmt:0.130ms, buff:0.001ms, axis:0.001ms
+  2.42022|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Keyboard' took 0.016s: conv:0.003ms, type:0.003ms, xinp:0.002ms, add/create:16.15ms, create():0.001ms
+  2.45151|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant consumer control device
+  2.45166|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant consumer control device' took 0.000s: conv:0.005ms, type:0.201ms
+  2.46001|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant system controller
+  2.46021|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant system controller' took 0.000s: conv:0.004ms, type:0.187ms
+  2.46043|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices end ***
+  2.46110|D|DirectInputDeviceV2::acquire|Not attempting to acquire device mouse0, since game window is not available
+  2.46132|D|DirectInputDeviceV2::acquire|Not attempting to acquire device keyboard0, since game window is not available
+  2.46421|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices start ***
+  2.47767|D|DirectInputDeviceV2::initialize|Mouse [instance: Mouse] detected, created as mouse0 (asynchronous)
+  2.47785|D|DirectInputDeviceV2::initialize| - devtype 0x112
+  2.47800|D|DirectInputDeviceV2::initialize| - A mouse or mouse-like device (such as a trackball)
+  2.47815|D|DirectInputDeviceV2::initialize| + 3 axes
+  2.47829|D|DirectInputDeviceV2::initialize| + 8 buttons
+  2.47872|D|DirectInputDeviceV2::initialize|created device 'mouse0', took 0.001s: create:0.022ms, caps:0.003ms, txts:0.848ms, enum:0.174ms, fmt:0.022ms, buff:0.009ms, axis:0.002ms
+  2.47896|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Mouse' took 0.001s: conv:0.004ms, type:0.002ms, xinp:0.003ms, add/create:1.349ms, create():0.001ms
+  2.47962|D|DirectInputDeviceV2::initialize|Keyboard [instance: Keyboard] detected, created as keyboard0 (asynchronous)
+  2.47978|D|DirectInputDeviceV2::initialize| - devtype 0x413
+  2.47992|D|DirectInputDeviceV2::initialize| - Keyboard or keyboard-like:
+  2.48008|D|DirectInputDeviceV2::initialize|  - IBM PC Enhanced 101/102-key or Microsoft Natural keyboard.
+  2.48023|D|DirectInputDeviceV2::initialize| + 128 buttons
+  2.48451|D|DirectInputDeviceV2::initialize|created device 'keyboard0', took 0.005s: create:0.117ms, caps:0.002ms, txts:0.778ms, enum:3.796ms, fmt:0.222ms, buff:0.001ms, axis:0.002ms
+  2.48482|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'Keyboard' took 0.005s: conv:0.002ms, type:0.001ms, xinp:0.002ms, add/create:5.294ms, create():0.001ms
+  2.51396|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant consumer control device
+  2.51411|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant consumer control device' took 0.000s: conv:0.004ms, type:0.203ms
+  2.52347|D|DirectInputInputDeviceSystem::EnumDevicesProc|Unknown didevice_type 17 for direct input device HID-compliant system controller
+  2.52364|D|DirectInputInputDeviceSystem::EnumDevicesProc|EnumDevicesProc() for device 'HID-compliant system controller' took 0.000s: conv:0.013ms, type:0.237ms
+  2.52379|D|DirectInputInputDeviceSystem::enumerateDevices| *** Input devices end ***
+  2.52390|D|DirectInputDeviceV2::acquire|Not attempting to acquire device mouse0, since game window is not available
+  2.52401|D|DirectInputDeviceV2::acquire|Not attempting to acquire device keyboard0, since game window is not available
+  2.52466|D|Platform::init|Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz GenuineIntel x64
+  2.52496|D|Platform::init|Microsoft Windows 10 (v10.0) (build 19043), 64-bit
+  2.52510|D|Platform::init|Physical memory: 15.90 GB
+  2.52525|D|Platform::init|Battery: state: 'high' - online
+  2.52535|D|Platform::init|Process Priority: Normal (0x20)
+  2.52685|D|CommandListener|CommandListener started
+  2.52958|D|TS|command line args:
+  2.52971|D|TS| - 0 = C:\ShineAutonomousTesting\BeamNG.tech\Bin64\BeamNG.tech.x64.exe
+  2.52983|D|TS| - 1 = -console
+  2.52994|D|TS| - 2 = -rport
+  2.53006|D|TS| - 3 = 64256
+  2.53016|D|TS| - 4 = -nosteam
+  2.53027|D|TS| - 5 = -physicsfps
+  2.53037|D|TS| - 6 = 4000
+  2.53047|D|TS| - 7 = -lua
+  2.53058|D|TS| - 8 = shutdown(0)
+  2.53068|D|TS| - 9 = -userpath
+  2.53079|D|TS| - 10 = C:\ShineAutonomousTesting\sbst-2021-tutorial\Code
+  3.07681|D|GFXInit::createDevice|Attempting to create GFX device 0: Intel(R) HD Graphics Family (D3D11) [with output \\.\DISPLAY1]
+  3.07702|D|GFXInit::createDevice|shader model: 5.0 , available video modes: 25
+  3.07727|D|GFXInit::createDevice|Device created, setting adapter and enumerating modes
+  3.16526|D|GFXD3D11Device::init|Hardware occlusion query detected: Yes
+  3.16636|D|GFXCardProfiler::init|D3D11 -  (Intel(R) HD Graphics Family) [112 MB] ver 
+  3.16655|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureWidth' to 8192.
+  3.16672|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureHeight' to 8192.
+  3.16687|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'maxTextureSize' to 8192.
+  3.16704|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'autoMipMapLevel' to 1.
+  3.16719|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'lerpDetailBlend' to 1.
+  3.16734|D|GFXCardProfiler::setCapability|GFXCardProfiler (D3D11) - Setting capability 'fourStageDetailBlend' to 1.
+  3.21601|D|GFXD3D11Device::init|GFXDevice 11 - SM 5.000000
+  3.21874|D|GFXD3D11WindowTarget::init|setting video mode: Width 1280, Height 720, Format 28, Windowed 1
+ 10.77396|D|TS|initClient start...
+ 10.77764|D|TS|initBaseClient start...
+ 10.78362|D|TS|initRenderManager
+ 10.78388|D|TS|initRenderManager
+ 10.78398|D|TS|--------- Initializing Lighting Systems ---------
+ 10.78409|D|TS|   Finding all the system files
+ 10.78712|D|TS|   exec: /core/scripts/client/lighting/shadowMaps/init.cs
+ 10.78865|D|TS|   exec: /core/scripts/client/lighting/basic/init.cs
+ 10.79366|D|TS|   exec: /core/scripts/client/lighting/advanced/init.cs
+ 10.82280|D|TS|   Finished with system files
+ 10.84441|D|TS|initPostEffects start...
+ 10.91702|D|TS|HDR FORMAT: GFXFormatR16G16B16A16F
+ 10.99384|D|TS|... initPostEffects done
+ 10.99401|D|TS|Initialize the post effect manager
+ 11.04588|D|TS|% - PostFX Manager - Executing settings/default.postfxpreset.cs
+ 11.04718|D|TS|% - PostFX Manager - Applying from preset
+ 11.04743|D|TS|% - PostFX Manager - PostFX enabled
+ 11.04762|D|TS|... initBaseClient done
+ 11.11059|D|TS|Attempting to set resolution to "1280 720 Window 32 60 0"
+ 11.11079|D|TS|Accepted Mode: 1280 720 Window 32 60 0
+ 11.60674|D|TS|... initClient done
+ 11.70622|I|BEAMNGCEF::CefManager::init|using CEF with software rasterizer
+ 11.93453|D|StandardMainLoop::doMainLoop|Started up in 11.93 seconds...
+ 11.96161|D|DirectInputDeviceV2::acquire|Succesfully acquired directinput device mouse0
+ 11.96250|D|DirectInputDeviceV2::acquire|Succesfully acquired directinput device keyboard0
+ 11.96756|D|SimConsoleEvent::process|TS:Executing schedule: 1 - MessageBoxOK
+ 11.97857|D|StandardMainLoop::shutdown|*** shutdown ***
+ 11.97893|D|CommandListener|CommandListener done
+ 11.98056|D|TS|Exporting settings
+ 11.98393|D|GELua.onExit|Exiting
+ 12.07346|D|GELua.core_cameraModes_relative.core_camera.relative|No refNodes found, using default fallback
+ 12.07394|D|TS|Saving PostFX options
+ 12.07604|D|TS|% - PostFX Manager - All Settings applied to $PostFXManager::Settings
+ 12.07923|D|TS|% - PostFX Manager - Save complete. Preset saved at : settings/default.postfxpreset.cs
+ 12.33916|D|DirectInputDeviceV2::unacquire|Succesfully unacquired directinput device mouse0
+ 12.33982|D|DirectInputDeviceV2::unacquire|Succesfully unacquired directinput device keyboard0
