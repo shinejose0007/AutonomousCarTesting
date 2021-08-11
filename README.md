@@ -18,6 +18,9 @@ https://sumo.dlr.de/docs/index.html
 
 
 run the main program
+
+main.py
+
 Simulator opens directly
 play the simulator to test it with diffeent scenarios
 
