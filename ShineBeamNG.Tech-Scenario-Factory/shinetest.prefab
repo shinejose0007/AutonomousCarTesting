@@ -1,0 +1,157 @@
+//--- OBJECT WRITE BEGIN
+$ThisPrefab = new SimGroup() {
+    canSave = "1";
+    canSaveDynamicFields = "1";
+    groupPosition = "0.000000 0.000000 0.000000";
+
+    
+    new BeamNGVehicle(ego) {
+        JBeam = "etk800";
+        color = "green";
+        colorPalette0 = "green";
+        colorPalette1 = "green";
+        renderDistance = "500";
+        renderFade = "0.1";
+        dataBlock = "default_vehicle";
+        position = "12.0 15.0 -28.0";
+        rotationMatrix = "-1.0 -1.2246467991473532e-16 0.0 1.2246467991473532e-16 -1.0 0.0 0.0 0.0 1.0";
+        scale = "1 1 1";
+        canSave = "1";
+        canSaveDynamicFields = "1";
+        annotation = "CAR";
+        licenseText = "ego";
+        
+    };
+    
+    new BeamNGVehicle(heading) {
+        JBeam = "autobello";
+        color = "yellow";
+        colorPalette0 = "yellow";
+        colorPalette1 = "yellow";
+        renderDistance = "500";
+        renderFade = "0.1";
+        dataBlock = "default_vehicle";
+        position = "32.0 19.0 -28.0";
+        rotationMatrix = "0.9998476951563913 -0.01745240643728351 0.0 0.01745240643728351 0.9998476951563913 0.0 0.0 0.0 1.0";
+        scale = "1 1 1";
+        canSave = "1";
+        canSaveDynamicFields = "1";
+        annotation = "CAR";
+        licenseText = "heading";
+        
+    };
+    
+    new BeamNGVehicle(opposite) {
+        JBeam = "citybus";
+        color = "white";
+        colorPalette0 = "white";
+        colorPalette1 = "white";
+        renderDistance = "500";
+        renderFade = "0.1";
+        dataBlock = "default_vehicle";
+        position = "22.0 19.0 -28.0";
+        rotationMatrix = "0.9998476951563913 -0.01745240643728351 0.0 0.01745240643728351 0.9998476951563913 0.0 0.0 0.0 1.0";
+        scale = "1 1 1";
+        canSave = "1";
+        canSaveDynamicFields = "1";
+        annotation = "CAR";
+        licenseText = "opposite";
+        
+    };
+    
+
+    
+    new DecalRoad(the_road) {
+        drivability = "1";
+        oneWay = "0";
+        flipDirection = "0";
+        improvedSpline = "1";
+        startTangent = "0";
+        endTangent = "0";
+        looped = "0";
+        smoothness = "0.5";
+        detail = "0.1";
+        overObjects = "1";
+        breakAngle = "3";
+        renderPriority = "0";
+        zBias = "0";
+        decalBias = "0.0005";
+        distanceFade = "1000 1000";
+        startEndFade = "0 0";
+        position = "10.0 10.0 -28.0";
+        scale = "1 1 1";
+        rotationMatrix = "1 0 0 0 1 0 0 0 1";
+        canSave = "1";
+        canSaveDynamicFields = "1";
+
+        Material = "tig_road_rubber_sticky";
+        textureLength = "5";
+
+        
+        Node = "10.0 10.0 -28.0 8.0";
+        
+        Node = "10.002 27.503 -28.0 8.0";
+        
+        Node = "4.622 43.644 -28.0 8.0";
+        
+        Node = "-7.928 55.831 -28.0 8.0";
+        
+        Node = "-18.284 69.927 -28.0 8.0";
+        
+        Node = "-26.036 85.604 -28.0 8.0";
+        
+        Node = "-30.927 102.393 -28.0 8.0";
+        
+        Node = "-34.002 119.624 -28.0 8.0";
+        
+        Node = "-36.818 136.899 -28.0 8.0";
+        
+        Node = "-30.161 152.523 -28.0 8.0";
+        
+        Node = "-13.643 157.294 -28.0 8.0";
+        
+        Node = "-30.972 158.884 -28.0 8.0";
+        
+        Node = "-47.534 157.283 -28.0 8.0";
+        
+        Node = "-64.709 152.931 -28.0 8.0";
+        
+        Node = "-80.784 145.229 -28.0 8.0";
+        
+        Node = "-94.298 136.235 -28.0 8.0";
+        
+        Node = "-107.399 123.02 -28.0 8.0";
+        
+        Node = "-102.705 138.844 -28.0 8.0";
+        
+        Node = "-112.594 152.857 -28.0 8.0";
+        
+        Node = "-128.205 160.581 -28.0 8.0";
+        
+        Node = "-145.542 162.236 -28.0 8.0";
+        
+    };
+    
+
+    
+    new BeamNGWaypoint(target_wp) {
+        
+        drawDebug = "0";
+        
+        directionalWaypoint = "0";
+        
+        mode = "Ignore";
+        
+        canSave = "1";
+        
+        canSaveDynamicFields = "1";
+        
+        position = "-145.542 162.236 -28.0";
+        
+        rotationMatrix = "1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0";
+        
+        scale = "1.0 1.0 1.0";
+        
+    };
+    
+};
