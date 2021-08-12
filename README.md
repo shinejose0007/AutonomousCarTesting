@@ -30,8 +30,11 @@ BeamNG.Tech
 
 create virtual environment in c folder
 
+Run requiremnet test and needed library in the flder specified
+
 Install necessary package with licesence
 https://beamng.tech/
+https://www.beamng.com/account/
 
 Befoe running xmlvisualization.py, please copy the sumoSimulation folder from common road to the run Beamng file,
 and then run xmlvisualization.py
